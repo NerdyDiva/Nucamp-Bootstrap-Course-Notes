@@ -1,0 +1,9 @@
+Front end and back end combine to make a full stack developer. 
+3 tier architecture model
+  a. Presentation tier(front end). gets data to and back from the end uesr. 
+    1. html/css 
+  b. Data tier(Back end) Stores and manages website data
+    1. might use mongo db or mysql
+  c. Business logic tier(back end) Intermediary between the two tiers. 
+    1. javascript through node.js or php or ruby
+    
