@@ -11,3 +11,4 @@ rm: remove a file (does not work on folders) command ex: rm existingfile
 mkdir: make a new directory ex: mkdir newfolder
 rm -r: removes a directory/folder 
 q: quit a manual
+code . : This opens up VS Code
