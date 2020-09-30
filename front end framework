@@ -1,0 +1,11 @@
+Bootstrap-one of the most well known frameworks
+why use a framework? avoid reinventing the wheel, consistency. 
+Bootstrap was created by Twitter
+free open source collection of css 
+makes it easy to create responsive pages
+works well, good docs, helpful community
+will help me get used to common ui concepts such as modals, carousels, breadcrumbs and more. 
+should not be a sub to learning css
+
+examples: 
+linking the minified files: bootstrap.min.css
