@@ -1,0 +1,18 @@
+A way to create grid layout for a page. 
+similar to concept of html table. this is a better tool than that. do not use those today. 
+mobile first, responsive layout.  
+designed mostly on css, especially the flexbox, along with media queries an breakpoints. 
+viewport meta tag needs to be in the head along with the bootstrap link. 
+
+for the bootstrap grid, rember that you will always need these 3 things. utilize the div tag: 
+-container
+-row
+-column
+
+container: fluid will make the row span across the whole page and looks good/adjusts to any size device. 
+A row always has the potential of 12 columns. 
+all content goes in the column divs only 
+
+Breakpoints: 
+if you don't specify a breakpoint size, it will default to x/s
+you can specify a column to be a size and up and it will be that many units. 
