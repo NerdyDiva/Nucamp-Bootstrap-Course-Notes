@@ -1,4 +1,6 @@
 Bootstrap-one of the most well known frameworks
+  1. prewritten CSS
+  2. everything is a class-based on the class-it will provide the needed styling. 
 why use a framework? avoid reinventing the wheel, consistency. 
 Bootstrap was created by Twitter
 free open source collection of css 
@@ -6,8 +8,54 @@ makes it easy to create responsive pages
 works well, good docs, helpful community
 will help me get used to common ui concepts such as modals, carousels, breadcrumbs and more. 
 should not be a sub to learning css
-
+Alternatives are: MaterialUI, SemanticUI, Pure.
 examples: 
 linking the minified files: bootstrap.min.css
+
+We'll be working on the "nucampsite" project and a portfolio project of my choice as part of a team or solo.  
+Build this project with boostrap in this course then with react in the react course. It will also be used in the rest of my bootcamp. 
+
+week 1: intro to bootstrap and grid
+Week 2: bootstrap components such as navbars, buttons, forms tables, cards, media objects. begin portfolio project. 
+week 3: more Bootstrap components and how to access the functionality of bootstrap javascript pugins. begin to review javascript and continue working on protfolio project. 
+week 4: jquery, css preprocessors, prepare files for deployment using npm scripts. continue your javascript review and work onyour porfolio project. 
+
+Git: version control. free. optional but highly encouraged. 
+
+Node/NPM
+  1. NPM (Node Package Manager( is installed with Node.js. 
+    a. Node.js is a framework for javascript. 
+    b. allows you to download Javvascript packages for use in your project. 
+   2. When you configure your project to work with NPM, it will install a package.json file which contains settings for your project as well as its dependecies. 
+   
+VS Code Integrated Terminal
+-touch is the command to create a file. 
+-you can combine commands with a && (double ampersand). 
+cd .. to move up (back) a directory. 
+
+-mobile-first design:  we design the code with the mobile view in mind first.  
+-responsive web design: build larger breakpoints in with the code above and beyond mobile view. 
+-in side the head element of your page: you must hvae the viewport meta tag:  
+
+Scripts that are required to use bootstrap and make responsive code: 
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+you need the jquery, popper and bootstrap min script files in just before the closing body tag.  
+
+Bootstrap Order-* Classes
+1.responsive order-* classes can be used with bootstrap grid to change the order of columns. 
+
+you can use them with breakpoints to specify that they should only apply within certain vviewport sizes. 
+
+Bootstrap offset-* Classes
+
+vertical alignment is called Align
+horizontal alignment is called text such as text-center. 
+
+
+
+
+
+
+
 
 
