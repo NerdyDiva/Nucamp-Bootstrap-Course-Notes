@@ -1,0 +1,8 @@
+Image classes are in the content section of Bootstrap as opposed to the Component section
+ONly a couple of bootstrap classes for images: 
+a.  image-fluid: if your pic is larger than the viewport, the system will cause the screen to scroll horizontally. Add this to the css sheet
+b. image-thumbnail 1 px border and rounded corners.  add this stright to the class. 
+
+Media class: 
+-add when you want to put a pic and a paragraph of text next to each other. div class="media" around the pic and the text.  Then add a div class="media-body" to just the text. 
+Media object info is in the layout section of boostrap docs. 
