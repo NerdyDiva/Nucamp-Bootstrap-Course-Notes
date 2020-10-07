@@ -1,1 +1,5 @@
 A record of run-ins with difficult coding situations.  what they were, how i got around them and what did i learn? 
+
+October: git issues.  found out that my npm install wasn't quite working.  folders were not installing where they were supposed to go.  tried again, but still the same.  then ended up 
+installing bootstrap social and other things manually and changed the folders so the path would be correct and my CSS would work. Other git issues this month was that the ssh key
+was not set up and I had to research and set that up as well.  
