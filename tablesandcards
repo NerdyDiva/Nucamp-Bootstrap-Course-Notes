@@ -1,0 +1,24 @@
+Bootstrap Tables and Cards
+  HTML tables should be used for tabular data only and not design. 
+    1. html character entity example: &lt(<)  &ge(>=)
+    2. example table  
+      <table>
+        <tr>
+          <td>
+          Blad
+          </td>
+        </tr>
+      </table>
+      3. thead elements and tbody elements can be wrapped around rows optionally if you desire.  So, if you have a table row that is the header with all the key info, you can wrap it 
+         in thead and then the remaining rows can be wrapped in tbody. If you do this, you would need to replace the <td> tags with <th> instead of the table header or rows wrapped in thead. 
+         You can also change the first <td> elements in the rows of the body to <th> as well so that they style appropriately. 
+      4. Table class in bootstrap
+        a. defaults to have borders. you can also use table-bordered for all rows to have borders. table responsive to remove horizontal scroll bar when it's too small. 
+        
+        
+      5. Card is a lightweight way for design. 
+         a. card is a bootstrap class that you put in a div. 
+         b. by default a card will take up the entire width of the screen or you can specify a width (style=width)
+         c. you can also put the card inside a bootstrap container (grid) 
+         d. by default the card has not padding or margin, but you can use the card body class to set off a padded section (div class="card-body")
+         e. you can use card-header to set a header. 
