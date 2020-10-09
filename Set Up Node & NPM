@@ -1,0 +1,78 @@
+
+Set Up Node & NPM
+Previous: 1. Exercise: Node and NPM SetupExit book
+2. Exercise: Using NPM
+For written instructions, scroll down below the video.
+
+
+
+Click here if you wish to open this video in its own window.
+
+
+Objectives
+Set up the package.json file for your NPM project. 
+Install an NPM package and use it with your project.
+
+Initialize your folder as an NPM project
+First, in your bash terminal, go to your git-test folder and enter the command:
+npm init
+Press enter multiple times to accept the default values.
+This will create a file named package.json in your git-test folder. This file contains all the configuration information that NPM will use to manage your project development, including keeping track of installed dependencies, running useful scripts, and more. 
+
+Install an NPM Module
+You will now install an NPM module, lite-server, that allows you to run a lightweight, Node.js-based development web server and serve up your project files. It is a mock web server to use for testing during development, not a real web server. To install it, type the following at the command prompt:
+npm install lite-server@2.5.4 --save-dev
+NOTE: the --save-dev flag means that lite-server is being installed as a development dependency, which means that later, when you build your project for deployment, it will not be included in the final build files, since it is only needed during development. 
+You can check out more documentation on lite-server here.
+Next, open package.json in your editor and modify it as shown below.  
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "Git and Node",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
+Then start the development server by typing the following at the command prompt. Make sure you are in your project folder when you enter this:
+npm start
+This should open your index.html page in your default browser.
+If you now open the index.html page in VS Code, make changes and save, the browser should immediately refresh to reflect the changes.
+
+(Optional: Only if Using Git) Set up .gitignore
+Create a file in your project directory named .gitignore (Note: the name starts with a period!)
+Then, using VS Code, add the following text to the .gitignore file:
+node_modules
+Then use the commands git add . and git commit to stage and commit the changes to your local repository, and use git push to push the changes to the linked online repository. (Remember there's a period in the git add . command!) 
+Notice that the node_modules folder will not be added nor committed, and will not be pushed to the repository - Git will ignore it as if it doesn't exist.
+
+Summary
+In this exercise, you learned to initialize your project folder as an NPM-managed project with a package.json file.
+You learned how to install an NPM package called lite-server, a lightweight development server for testing during development, and how to use set it up in your package.json file so that you can use it with the command npm start.
+If using Git, you also learned how to set up a .gitignore file for files you want Git to ignore. 
+
+Additional Resources
+Why Package.json? NPM Basics
+What Is Localhost?
+lite-server
+Previous: 1. Exercise: Node and NPM SetupExit book
+
+Skip Table of contents
+Table of contents
+1. Exercise: Node and NPM Setup
+2. Exercise: Using NPM
+Skip Online users
+Hide Online users blockMove this to the dock
+Online users
+(last 1 minutes: 1)
+Darlin Artiles
