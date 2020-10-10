@@ -1,0 +1,28 @@
+Review Cards: 
+
+There is no Card HTML element. 
+Cards are built usin gthe div element and other html elements. 
+Cards have no margin and no fixexd width to start and stretch to fill their paent element. 
+the optional card-body calss will ad a padded section. 
+Other useful optional Card classes include: 
+  -card-title (can use with heading elements such as h3)
+  -card-header
+  -card-footer
+  -card-group
+  -card-deck
+  -card-columns
+  
+  Media: 
+  purpose is to layou content next to a media file when you don't want the ocntent to wrap around the media file. 
+  in teh layout section of boostrap docs. 
+  
+  
+ align-self center class on the media will vertically center-align media 
+ 
+ align-self and align-item
+ individual child element you would use the align-self class on the element. 
+ 
+ when you want all child elements to align you would use the alighn-items on the containing parent element.  
+ this parent element must be a flex item such as d-flex, row etc. 
+ 
+  
