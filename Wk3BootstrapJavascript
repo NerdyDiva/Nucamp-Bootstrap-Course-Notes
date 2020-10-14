@@ -1,0 +1,34 @@
+Bootstrap
+Tabs and Pills
+  1. Nav component.  Nav can be an element and a class. 
+Overview: Tabs and Pills
+Exercise: Tabs
+Collapse and Accordion
+Overview: Collapse and Accordion
+Exercise: Accordion
+Tooltips and Modals
+Overview: Tooltips and Modals
+Exercise: Tooltips and Modals
+Carousel
+Overview: Carousel
+Exercise: Carousel
+
+
+JavaScript Review
+JavaScript Fundamentals
+Overview: JavaScript Basics
+The Developer Console
+Data Types, Variables, Grammar
+Arithmetic and Assignment Operators
+Conditional and Logical Operators
+Making Decisions
+If/Else Statements
+Switch/Case Statements
+Loops and Iteration
+JavaScript While Loops 
+JavaScript For Loops
+
+Data Attributes: custom data attributes. new in html5.  
+  1. simple and powerful: allows you to create custom attributes to store any data you want in any html element then later access it in javascript and/or css. 
+  2. to create:  user data- plus a string of choice. 
+  
