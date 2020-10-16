@@ -1,0 +1,10 @@
+Questions: 
+1. contact-can't get ahold in slack or site messenger. 
+2. advise that you are going to leave at 10:50 this week and next. ask any questions about the workshop in the meantime. 
+3. in index.html, the below code makes a text box instead of a checkbox. why? 
+<div class="form-check">
+        <input type="form-check-input" type="checkbox">
+        <label class="form-check-label">Remember me</label>
+ </div>
+ 
+                                
