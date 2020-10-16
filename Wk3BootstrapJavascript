@@ -7,8 +7,14 @@ Collapse and Accordion
 Overview: Collapse and Accordion
 Exercise: Accordion
 Tooltips and Modals
-Overview: Tooltips and Modals
-Exercise: Tooltips and Modals
+Overview: Tooltips
+  1. if you click on a word set with tooltip, it will provide info. 
+  2. uses popper.js (library for tooltips and most dropdown menus. 
+  3. tooltip is not built uses classes. it's instead built using custom data-attributes. 
+  
+Exercise: Modals
+  1. windown that pops open on top of a parent window. disables the parent window  until the modal is closed. 
+  
 Carousel
 Overview: Carousel
 Exercise: Carousel
