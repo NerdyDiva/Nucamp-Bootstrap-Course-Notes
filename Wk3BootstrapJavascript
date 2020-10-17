@@ -24,9 +24,61 @@ JavaScript Review
 JavaScript Fundamentals
 Overview: JavaScript Basics
 The Developer Console
-Data Types, Variables, Grammar
-Arithmetic and Assignment Operators
-Conditional and Logical Operators
+  1. two main uses: test ou small pieces of code and interact w/ scrips on the current webpage (ie: view messages logged to the console)
+  2. you can use ctrl + L to clear the console log. to refresh the console's memory refresh the page. or change to a new browser tab 
+  cause each tab has its own console memory. 
+  
+  
+Data Types
+  1. Number, string, boolean, undefined, null, object, symbol, bigint
+  2. Number: can be an integer or have decimals
+  3. string: will always have single or double quotes around it. 
+  4. boolean: true or false
+  5. undefined. a variable that has been declared, but not initializeed. 
+  
+
+Variables
+  1. variables vs literals
+  2. literals do not change. they are hard coded. 
+    a. ex: 3 is a literal number while "nucamp" is a literal string. 
+  3. variable is a location in the computer's memory where info can be stored and accessed.  
+  4.  declaration: setting aside a location.  use var(variable)/let/const
+  5. case sensitive
+  6. use semicolons at the end of a statement
+  
+
+Grammar
+  1. common way to name variables using camelCase
+  
+
+Arithmetic and 
+  1. increment operator:  Takes a single operand, and variable name: ex: myNum++
+  2. operand must be a variable containing a number
+  3. Will increment the value of the variable by 1
+  4. --  Will decrement the value of the variable by 1
+  5. with the increment or decrement operators, there is prefix and postfix.  the browswer will display the value of your variable
+    before it increments or decrements. 
+ Assignment Operators
+  1. +=, -=, *=, /=
+  2. these take two operands. left operand must be a variable. 
+  3. These operators will each perform the arithmetic operation first, then assign the result to the left operands value. 
+ Comparison Operators
+  1. ==, ===, !=, !==, >, <, >=, <=
+  2. these return either true or false only
+  3. equality operator == (loose equality-data types of its operands do not need to match)
+  4. strict equality operator === (strict equality-data types of its operands must match)
+Conditional and 
+Logical Operators
+  1. && (and) ,  || (Logical Or), ! (Logical Not)
+  2. return only true or false
+  3. type coercion: if you use a logical operator with something that is not a boolean data type, then the browswer will coerce the data types to boolean true or false. 
+    ex: "eek" + 5 = eek5
+   4. if the value that is coerced is boolean true, then that operand is considered "truthy"
+   5. if the value that is coerced is boolean false, then that operand is considered "falsy"
+   6> Rules for determining whther a non-boolean value would be converted to true or fals/is truth or falsy: 
+    any valude that is 0, "", undefined, null or NaN convers to false (is falsy).  All other values are converted to tru (is truthy)
+   7. && operator takes 2 operands and checks if both are truthy.  returns a truthy value if yes, and a falsy value if no. 
+   8. return value of && is not always boolean. 
 Making Decisions
 If/Else Statements
 Switch/Case Statements
