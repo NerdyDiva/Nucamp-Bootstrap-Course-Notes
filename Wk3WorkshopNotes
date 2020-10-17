@@ -9,4 +9,6 @@ Questions:
  4. why aren't the images in your project working right? 
  
  5. Is there a way to change breadcrumb color? 
+ 6. why will my font awesome icons not render instead of the nucamp logo?  i tried this: <a class="nav-link" href="#"><i class="fas fa-spa"></a></i>
+ instead of this: <img src="img/logo.png" class="img-fluid" />
                                 
