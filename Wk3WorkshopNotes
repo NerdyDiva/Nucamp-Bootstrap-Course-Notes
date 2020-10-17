@@ -1,7 +1,7 @@
 Questions: 
 1. contact-can't get ahold in slack or site messenger. 
-2. advise that you are going to leave at 10:50 this week and next. ask any questions about the workshop in the meantime. 
-3. in index.html, the below code makes a text box instead of a checkbox. why? 
+2. done advise that you are going to leave at 10:50 this week and next. ask any questions about the workshop in the meantime. 
+3. asked in slack in index.html, the below code makes a text box instead of a checkbox. why? 
 <div class="form-check">
         <input type="form-check-input" type="checkbox">
         <label class="form-check-label">Remember me</label>
@@ -12,3 +12,30 @@ Questions:
  6. why will my font awesome icons not render instead of the nucamp logo?  i tried this: <a class="nav-link" href="#"><i class="fas fa-spa"></a></i>
  instead of this: <img src="img/logo.png" class="img-fluid" />
                                 
+Notes: 
+
+tooltip-default location is on top if you don't specify. 
+4 options for the tooltip is triggered: 
+        focus(shows tooltip when someone is inside an input), manual(telling tooltip how to be triggered like a particular keystroke), click, hover
+ modal is similar to javasript alert function's popup in that they both open a dialog box.  bu you can customize a modal to include any content you want
+ such as forms, notificatoins and lightboxes. 
+ 
+ Carousel: 
+        data-slide: prev and next
+        data-slide-to: allows you to jup to a specific slide index (zero-based). 
+        default carousel interval: 5000 ms or 5 seconds
+        time is in javavascript is in milli-seconds . 
+        
+        data-ride option will autoplay the carousel after the user manually cycles the first item.  set this to carousel if you want it to strat c
+        cycling by default
+        
+        nan
+        undefined
+        string
+        number
+        
+     Switch statements use if you lots of 'else' in if else statements. 
+     
+
+        
+        
