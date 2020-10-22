@@ -1,0 +1,39 @@
+jquery is on the decline because javascript has improved. but still 74% of all websites use jquery. 
+jquery is a javascript library. 
+Video Summary
+Bootstrap's JavaScript components, such as the Carousel and Tooltips, offer ways to manipulate the components by using either HTML data-* attributes or by writing JavaScript.
+The JavaScript used in Bootstrap is through a very popular JS library called jQuery.
+jQuery was first created in 2006 and is the most popular JavaScript library in the world. At the time it was created, it offered powerful ways to do tasks that were otherwise difficult at the time, such as selecting DOM elements, handling cross-browser issues, and more.
+Since then, advances in browser technology and in JavaScript itself have made it easy to handle such tasks without using jQuery, and as a result, jQuery has begun to experience a decline in usage.
+However, its usage is so widespread that it will still continue to be relevant for some time. A 2019 report from w3techs.com states that jQuery is still used on over 74% of all websites. So it is still useful to know how to use jQuery. 
+We will not be studying jQuery in depth in this course, but the next two lessons will cover examples of how to manipulate Bootstrap components with it. 
+
+Additional Resources
+Bootstrap JavaScript (jQuery)
+jQuery
+Should You Use Or Learn jQuery In 2019?
+w3techs.com - Usage of JavaScript libraries for websites (2019)
+
+- Dollar sign ($) indicates you are about to begin some jquery. 
+- $(function() is the same as $document.ready(function(). the first is preferred. 
+
+
+1. Overview: CSS Preprocessors & Sass
+
+Video Summary
+SASS:  Syntatically Awesome Style Sheets:  Sass. 
+  1. Sass is the most common preprocessor: Less and Stylus are less common. 
+  2. browswers can't read the sheets, but they are converted to regular CSS before deployment. 
+  3. features: variables, imports, mixins, includes, functions, extends, operators, adjust color. 
+SCSS: Sassy CSS. variant of SASS. minor syntax differences, but very similar. SCSS is used more now and has semi-colons and curly braces. 
+
+CSS preprocessors are stylesheet scripting languages that take CSS one step further, adding powerful features such as variables, functions, mixins, and more. They make it easier to write and maintain large, complex stylesheets. Stylesheet files written with preprocessors are compiled to regular CSS syntax before deployment. 
+Sass is the CSS preprocessor that's used to write the source CSS code for Bootstrap 4, and thus it is useful to learn Sass if you ever want to theme Bootstrap or customize its source code. 
+There are other CSS preprocessors; the one used to write Bootstrap 3 is called Less. 
+There are two variants of Sass - Sass (.sass) and Scss (.scss) - there are a few syntactic differences but their functionality is the same.
+In the next lesson, you will learn how to use a little Sass, then how to install and use a Sass compiler.
+
+
+
+Questions for Jerald: 
+- I added my play and pause buttons to my nucamp carousel and the buttons are overlapping slightly on the right hand side. 
