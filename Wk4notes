@@ -34,6 +34,15 @@ There are two variants of Sass - Sass (.sass) and Scss (.scss) - there are a few
 In the next lesson, you will learn how to use a little Sass, then how to install and use a Sass compiler.
 
 
+Review with class 10/24/2020: 
+
+Jquery:  shorthand way of writing that then turns around and runs the javascript. Works on the idea that you can use different selectors to do that. 
+  1. $('css selector')
+  2. to activate jquery, you'll use the $ symbol and then add the jquery in curly braces. 
+  3. SCSS is a variant of SASS which is a CSS preprocessor. 
+  4. you can use SASS w/ variables, nesting, custom functions, looping through elements such as for and for each, built-in functions.
+  
+
 
 Questions for Jerald: 
 - done: I added my play and pause buttons to my nucamp carousel and the buttons are overlapping slightly on the right hand side. 
