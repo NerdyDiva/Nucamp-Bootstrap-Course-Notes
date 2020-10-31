@@ -2,6 +2,13 @@ Functions: write once, use over and over again.
 multiple ways to write, but the function declaration is the oldest way. 
 first part of syntax is function keyword then a unique function name to call the function later. 
 
+hoisted means that at runtime javascript will move all functions to the top of their scope 
+difference between event handlers vs event listeners is that with listeners, you can have more than one element event listener. 
+functions in javascript don't need "" quotation marks around them.
+var has function block scope only. 
+const and let have block scope which is any code including but not limited to functions. they can work in any block of code. 
+Global scope is accessible to your project.  this is prone to bugs. 
+
 
 Questions: 
 -pls run through JS Microtweet challenge
