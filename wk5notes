@@ -1,3 +1,7 @@
 Functions: write once, use over and over again. 
 multiple ways to write, but the function declaration is the oldest way. 
 first part of syntax is function keyword then a unique function name to call the function later. 
+
+
+Questions: 
+-pls run through JS Microtweet challenge
